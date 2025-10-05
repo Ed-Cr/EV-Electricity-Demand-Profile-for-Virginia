@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Electricity Demand by Hour of Virginia Government EV Fleets</title>
+  
+  <!--- Custom style references CSS for map and slider --->
+  <link rel="stylesheet" href="css/style_v2.css" />
+  
+  <!--- Leaflet CSS --->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+  
+  <!--- Leaflet JS reference--->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  
+  <!--- Data reference for EV electricity demand for government fleets in VA --->
+  <script src="data/va_gov_ev_demand_data.js"></script>
+
+  <!--- Chart.js for popup graphs --->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body onload="initDashboard()">
+  <div class="container">
+
+    <!--Left column with explainer text -->
+    <div class="column left">
+      <h1>Average Hourly Electricity Demand of Virginia's Government Fleets</h1>
+      <p>
+        <strong>Purpose:</strong></p>
+        <p>This project shows the demand for electricity created by Virginia's electric vehicle (EV) fleets on an hourly basis.</p>
+        <p>
+          Use the slider below the map to explore how demand changes throughout the day across different counties. Click on the map to learn more about specific fleet load profiles.
+        </p>
+      </p>
+      <p><strong>Results:</strong></p>
+      <p>The time of day with the highest electricity demand was around 8:00pm (20:00) and the lowest demand was around 9:00am (9:00). This indicates that most EVs in the state fleet are out in service during normal working hours and gradualy return to base in the evening. With demand falling in the early morning as charging sessions complete. </p>
+      <p>Takeaways from these results show times where fleet managers can initiate smart charging and demand management programs. With the understanding that utility surge pricing may be higher from the 6:00pm (18:00) to 10:00pm (22:00) time block.</p>
+      <p>Additional insights from this project is the distribution of EVs are formed around the urbanized regions of Virginia, which suggests early EV adoption favored shorter routes.</p>
+      <p>While the data used for this project are incomplete and do not represent a final picture of electric vehicles deployed by Virginia's state government, this data is useful for showing when and where generalized electricty demand is the highest.</p>
+      <p></p>
+      <p><strong>Conclusion:</strong></p> 
+      <p>This project is a step in telling the story of the clean energy transition. Mapping where the growth in electricity demand is due to the growing electric vehicle industry. Energy planners, policy makers, and citizens will need the tools to understand the impacts of this massive societal undertaking so we can prepare to overcome the associated challenges.</p>
+      <p><strong>References:</strong></p> 
+      <p>Hourly load profile data were obtained from the National Renewable Energy Laboratory (NREL) via their Data Catalog. The “Modeled Electricity Demand Profiles for Federal, State and Municipal EV Fleets in the U.S.” dataset was used. Source: <a href="https://data.nrel.gov/submissions/280">https://data.nrel.gov/submissions/280</a></p>
+      </div>
+  <!-- Center column with map and slider -->
+   <div class="column center">
+    <p></p>
+  <div id="mapid"></div>
+    <p>Use the slider below to view the consumption of electricity throughout the day by Virginia's EV fleet.</p>
+
+  <div class="slidecontainer">
+    <!--- inputs for the slider --->
+    <input
+      type="range"
+      min="0"
+      max="23"
+      value="12"
+      id="myRange"
+      class="slider"
+    />
+    <h3>
+      <strong>Time of Day:</strong>
+      <strong><span id="hour">12:00</span></strong>
+    </h3>
+  </div>
+  <!--- Table container -->
+    <div class="table-container">
+      <h3>County EV Fleet Data</h3>
+      <div class="table-scroll">
+        <table id="countyDataTable">
+          <thead>
+            <tr>
+              <th>County</th>
+              <th>Heavy Duty</th>
+              <th>Medium Duty</th>
+              <th>Light Duty</th>
+              <th>Total Vehicles</th>
+              <th>EV Demand (kWh)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Rows will be inserted dynamically -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Right column charts, table, and other elements-->
+   <div class="column right">
+    <h3>Average Hourly Electricity Demand</h3>
+    <div class="graph-container">
+        <canvas id="avgDemandChart"></canvas>
+    </div>
+      <div>
+        <p></p>
+        <div class="card" id="heavyDutyCard">Heavy Duty: 0</div>
+        <p></p>
+        <div class="card" id="mediumDutyCard">Medium Duty: 0</div>
+        <p></p>
+        <div class="card" id="lightDutyCard">Light Duty: 0</div>
+        <p></p>
+        <div class="card" id="totalFleetCard">Total Fleet Vehicles: 0</div>
+      </div>
+  </div>
+    <!-- Table for fleet data -->
+  </div>
+  <script src="js/map.js"></script>
+  <script src="js/charts.js"></script>
+  <script src="js/utility_functions.js"></script>
+  <script src="js/dashboard_ui.js"></script>
+</body>
+</html>
