@@ -1,0 +1,245 @@
+/* style sheet for the EV load profile and electricity demand dashboard project */
+/* Map area container, full width and 60% viewport height with border */
+#mapid {
+    width: 100%;
+    height: 75vh;
+    min-height: 300px;
+    border: 1px solid #ccc;
+}
+
+/* Leaflet map background and outline removal */
+.leaflet-container {
+    background: #0d1b2a;
+    outline: 0;
+}
+
+/* Wrapper for map + controls, centered with spacing */
+.map-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Legend base text style */
+.legend {
+    line-height: 18px;
+    color: #555;
+}
+
+/* Legend color boxes */
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+
+/* Styled legend container (background, shadow, rounded corners) */
+.info.legend {
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 5px;
+}
+
+/* Styled legend color boxes inside .info container */
+.info.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+  opacity: 0.7;
+}
+
+/* Container for slider, centered and constrained width */
+.slidecontainer {
+  width: 80%;
+  text-align: center;
+}
+
+/* Slider base style (size, color, hover transition) */
+.slider {
+  -webkit-appearance: none;
+  width: 75%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+/* Slider hover effect: increase visibility */
+.slider:hover {
+  opacity: 1;
+}
+
+/* Slider handle (WebKit browsers) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #04AA6D;
+  cursor: pointer;
+}
+
+/* Slider handle (Firefox/Gecko browsers) */
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #04AA6D;
+  cursor: pointer;
+}
+
+/* Global body styling: background gradient, font, text color */
+body {
+  background: linear-gradient(to bottom right, #2c3e50, #2980b9);
+  color: white;
+  font-family: sans-serif;
+}
+
+/* 3-column grid layout: left (text), center (map), right (graph/list) */
+.container {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: auto auto auto;
+    gap: 1rem;
+    min-height: 100vh;
+}
+
+/* Shared styling for each grid section */
+.left {
+    grid-column: 1;
+    grid-row: 1;
+    padding: 1rem;
+    overflow-y: visible; /* Enables scrolling if content overflows */
+    border-radius: 8px;
+}
+.center{  
+    grid-column: 2;
+    grid-row: 1; 
+    padding: 1rem;
+    overflow-y: visible; /* Enables scrolling if content overflows */
+    border-radius: 8px;
+  } 
+.right {
+    grid-column: 3;
+    grid-row: 1;
+    padding: 1rem;
+    overflow-y: visible; /* Enables scrolling if content overflows */
+    border-radius: 8px;
+}
+
+/* Graph container sizing */
+.graph-container {
+    width: 90%;
+    height: 30%;
+}
+
+/* Fleet list box, scrollable with smaller font */
+.fleet-list {
+    margin-top: 1rem;
+    max-height: 200px;
+    overflow-y: auto;
+    font-size: 0.9rem;
+}
+
+
+/* cards for the graphics */
+.cards {
+  display:flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.card {
+  background: #222;
+  opacity: 50;
+  color:#ffff;
+  font-size: 1.1em;
+  font-weight: bold;
+  padding: 12px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.table-container {
+  grid-column: 2 / 4;
+  grid-row: 2;
+  align-items: start;
+  margin-top: 1rem;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+.table-scroll {
+  max-height: 800px;
+  width: auto;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  position: sticky;
+  top: 0;
+  background: rgba(44, 62, 80, 0.9);
+}
+
+th, td {
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid #555;
+  text-align: left;
+}
+
+tbody tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+
+/* Responsive layout: stack sections vertically on smaller screens */
+@media (max-width: 1500px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: auto;       /* container grows with content */
+        gap: 1rem;
+    }
+
+    /* Left column (text) */
+    .left {
+        order: 1;           /* first */
+        min-height: 250px;
+    }
+
+    /* Right column (graph + fleet list) */
+    .right {
+        order: 2;           /* second */
+        min-height: 250px;
+    }
+
+    /* Center column (map) */
+    .center {
+        order: 3;           /* last */
+        position: relative;
+        bottom: 0;
+        height: auto;  
+    }
+
+    /* Map itself fills parent */
+    #mapid {
+        width: 100%;
+        height: 60vh;
+        min-height: 350px;
+    }
+}
