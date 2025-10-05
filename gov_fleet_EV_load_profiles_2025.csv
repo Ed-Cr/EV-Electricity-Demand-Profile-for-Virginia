@@ -1,0 +1,553 @@
+Geography Name,Geography Type,Year,Hour of Day,Avg_Demand_kW
+Albemarle County,county,2025,0,3.30
+Albemarle County,county,2025,1,2.80
+Albemarle County,county,2025,2,2.40
+Albemarle County,county,2025,3,2.00
+Albemarle County,county,2025,4,1.80
+Albemarle County,county,2025,5,1.60
+Albemarle County,county,2025,6,1.40
+Albemarle County,county,2025,7,1.10
+Albemarle County,county,2025,8,0.90
+Albemarle County,county,2025,9,0.90
+Albemarle County,county,2025,10,0.90
+Albemarle County,county,2025,11,1.10
+Albemarle County,county,2025,12,1.20
+Albemarle County,county,2025,13,1.40
+Albemarle County,county,2025,14,1.60
+Albemarle County,county,2025,15,1.80
+Albemarle County,county,2025,16,2.30
+Albemarle County,county,2025,17,3.10
+Albemarle County,county,2025,18,3.50
+Albemarle County,county,2025,19,3.90
+Albemarle County,county,2025,20,4.10
+Albemarle County,county,2025,21,4.10
+Albemarle County,county,2025,22,4.00
+Albemarle County,county,2025,23,3.80
+Charlottesville City,county,2025,0,12.50
+Charlottesville City,city,2025,1,10.90
+Charlottesville City,city,2025,2,9.50
+Charlottesville City,city,2025,3,8.60
+Charlottesville City,city,2025,4,7.70
+Charlottesville City,city,2025,5,7.00
+Charlottesville City,city,2025,6,6.20
+Charlottesville City,city,2025,7,5.00
+Charlottesville City,city,2025,8,4.20
+Charlottesville City,city,2025,9,4.00
+Charlottesville City,city,2025,10,4.30
+Charlottesville City,city,2025,11,5.00
+Charlottesville City,city,2025,12,5.70
+Charlottesville City,city,2025,13,6.40
+Charlottesville City,city,2025,14,7.20
+Charlottesville City,city,2025,15,8.40
+Charlottesville City,city,2025,16,10.50
+Charlottesville City,city,2025,17,13.80
+Charlottesville City,city,2025,18,16.10
+Charlottesville City,city,2025,19,17.40
+Charlottesville City,city,2025,20,18.10
+Charlottesville City,city,2025,21,17.70
+Charlottesville City,city,2025,22,16.50
+Charlottesville City,city,2025,23,14.70
+Chesapeake City,city,2025,0,124.90
+Chesapeake City,city,2025,1,109.40
+Chesapeake City,city,2025,2,95.60
+Chesapeake City,city,2025,3,86.10
+Chesapeake City,city,2025,4,78.00
+Chesapeake City,city,2025,5,70.70
+Chesapeake City,city,2025,6,62.50
+Chesapeake City,city,2025,7,49.80
+Chesapeake City,city,2025,8,41.70
+Chesapeake City,city,2025,9,40.20
+Chesapeake City,city,2025,10,43.40
+Chesapeake City,city,2025,11,49.70
+Chesapeake City,city,2025,12,57.40
+Chesapeake City,city,2025,13,63.90
+Chesapeake City,city,2025,14,71.60
+Chesapeake City,city,2025,15,84.00
+Chesapeake City,city,2025,16,104.70
+Chesapeake City,city,2025,17,137.40
+Chesapeake City,city,2025,18,161.40
+Chesapeake City,city,2025,19,173.60
+Chesapeake City,city,2025,20,181.10
+Chesapeake City,city,2025,21,177.50
+Chesapeake City,city,2025,22,165.00
+Chesapeake City,city,2025,23,147.20
+Chesterfield County,county,2025,0,76.10
+Chesterfield County,county,2025,1,66.70
+Chesterfield County,county,2025,2,58.20
+Chesterfield County,county,2025,3,52.50
+Chesterfield County,county,2025,4,47.50
+Chesterfield County,county,2025,5,43.10
+Chesterfield County,county,2025,6,38.10
+Chesterfield County,county,2025,7,30.30
+Chesterfield County,county,2025,8,25.50
+Chesterfield County,county,2025,9,24.40
+Chesterfield County,county,2025,10,26.50
+Chesterfield County,county,2025,11,30.20
+Chesterfield County,county,2025,12,35.00
+Chesterfield County,county,2025,13,38.90
+Chesterfield County,county,2025,14,43.60
+Chesterfield County,county,2025,15,51.20
+Chesterfield County,county,2025,16,63.80
+Chesterfield County,county,2025,17,83.80
+Chesterfield County,county,2025,18,98.30
+Chesterfield County,county,2025,19,105.80
+Chesterfield County,county,2025,20,110.50
+Chesterfield County,county,2025,21,108.20
+Chesterfield County,county,2025,22,100.60
+Chesterfield County,county,2025,23,89.70
+Frederick County,county,2025,0,1.60
+Frederick County,county,2025,1,1.50
+Frederick County,county,2025,2,1.20
+Frederick County,county,2025,3,1.10
+Frederick County,county,2025,4,1.00
+Frederick County,county,2025,5,0.90
+Frederick County,county,2025,6,0.80
+Frederick County,county,2025,7,0.70
+Frederick County,county,2025,8,0.60
+Frederick County,county,2025,9,0.60
+Frederick County,county,2025,10,0.60
+Frederick County,county,2025,11,0.70
+Frederick County,county,2025,12,0.80
+Frederick County,county,2025,13,0.80
+Frederick County,county,2025,14,0.90
+Frederick County,county,2025,15,1.10
+Frederick County,county,2025,16,1.40
+Frederick County,county,2025,17,1.80
+Frederick County,county,2025,18,2.20
+Frederick County,county,2025,19,2.30
+Frederick County,county,2025,20,2.40
+Frederick County,county,2025,21,2.40
+Frederick County,county,2025,22,2.20
+Frederick County,county,2025,23,1.90
+Lynchburg City,city,2025,0,4.90
+Lynchburg City,city,2025,1,4.30
+Lynchburg City,city,2025,2,3.80
+Lynchburg City,city,2025,3,3.40
+Lynchburg City,city,2025,4,3.10
+Lynchburg City,city,2025,5,2.80
+Lynchburg City,city,2025,6,2.50
+Lynchburg City,city,2025,7,1.90
+Lynchburg City,city,2025,8,1.60
+Lynchburg City,city,2025,9,1.60
+Lynchburg City,city,2025,10,1.70
+Lynchburg City,city,2025,11,1.90
+Lynchburg City,city,2025,12,2.30
+Lynchburg City,city,2025,13,2.50
+Lynchburg City,city,2025,14,2.80
+Lynchburg City,city,2025,15,3.30
+Lynchburg City,city,2025,16,4.10
+Lynchburg City,city,2025,17,5.50
+Lynchburg City,city,2025,18,6.40
+Lynchburg City,city,2025,19,6.80
+Lynchburg City,city,2025,20,7.20
+Lynchburg City,city,2025,21,7.00
+Lynchburg City,city,2025,22,6.60
+Lynchburg City,city,2025,23,5.80
+Newport News City,city,2025,0,54.10
+Newport News City,city,2025,1,47.40
+Newport News City,city,2025,2,41.40
+Newport News City,city,2025,3,37.30
+Newport News City,city,2025,4,33.80
+Newport News City,city,2025,5,30.60
+Newport News City,city,2025,6,27.00
+Newport News City,city,2025,7,21.60
+Newport News City,city,2025,8,18.10
+Newport News City,city,2025,9,17.40
+Newport News City,city,2025,10,18.80
+Newport News City,city,2025,11,21.50
+Newport News City,city,2025,12,24.90
+Newport News City,city,2025,13,27.60
+Newport News City,city,2025,14,31.00
+Newport News City,city,2025,15,36.40
+Newport News City,city,2025,16,45.30
+Newport News City,city,2025,17,59.40
+Newport News City,city,2025,18,69.90
+Newport News City,city,2025,19,75.10
+Newport News City,city,2025,20,78.40
+Newport News City,city,2025,21,76.80
+Newport News City,city,2025,22,71.50
+Newport News City,city,2025,23,63.80
+Norfolk City,city,2025,0,15.50
+Norfolk City,city,2025,1,13.60
+Norfolk City,city,2025,2,11.80
+Norfolk City,city,2025,3,10.70
+Norfolk City,city,2025,4,9.70
+Norfolk City,city,2025,5,8.80
+Norfolk City,city,2025,6,7.70
+Norfolk City,city,2025,7,6.10
+Norfolk City,city,2025,8,5.20
+Norfolk City,city,2025,9,5.00
+Norfolk City,city,2025,10,5.30
+Norfolk City,city,2025,11,6.10
+Norfolk City,city,2025,12,7.20
+Norfolk City,city,2025,13,8.00
+Norfolk City,city,2025,14,8.90
+Norfolk City,city,2025,15,10.50
+Norfolk City,city,2025,16,13.00
+Norfolk City,city,2025,17,17.00
+Norfolk City,city,2025,18,20.00
+Norfolk City,city,2025,19,21.50
+Norfolk City,city,2025,20,22.50
+Norfolk City,city,2025,21,22.00
+Norfolk City,city,2025,22,20.50
+Norfolk City,city,2025,23,18.30
+Petersburg City,city,2025,0,3.50
+Petersburg City,city,2025,1,3.10
+Petersburg City,city,2025,2,2.70
+Petersburg City,city,2025,3,2.40
+Petersburg City,city,2025,4,2.20
+Petersburg City,city,2025,5,2.00
+Petersburg City,city,2025,6,1.80
+Petersburg City,city,2025,7,1.40
+Petersburg City,city,2025,8,1.10
+Petersburg City,city,2025,9,1.10
+Petersburg City,city,2025,10,1.20
+Petersburg City,city,2025,11,1.40
+Petersburg City,city,2025,12,1.60
+Petersburg City,city,2025,13,1.80
+Petersburg City,city,2025,14,2.00
+Petersburg City,city,2025,15,2.40
+Petersburg City,city,2025,16,3.00
+Petersburg City,city,2025,17,3.90
+Petersburg City,city,2025,18,4.50
+Petersburg City,city,2025,19,4.90
+Petersburg City,city,2025,20,5.10
+Petersburg City,city,2025,21,5.00
+Petersburg City,city,2025,22,4.70
+Petersburg City,city,2025,23,4.20
+Prince William County,county,2025,0,45.20
+Prince William County,county,2025,1,39.70
+Prince William County,county,2025,2,34.50
+Prince William County,county,2025,3,31.10
+Prince William County,county,2025,4,28.20
+Prince William County,county,2025,5,25.60
+Prince William County,county,2025,6,22.60
+Prince William County,county,2025,7,18.10
+Prince William County,county,2025,8,15.10
+Prince William County,county,2025,9,14.50
+Prince William County,county,2025,10,15.70
+Prince William County,county,2025,11,18.00
+Prince William County,county,2025,12,20.80
+Prince William County,county,2025,13,23.10
+Prince William County,county,2025,14,25.90
+Prince William County,county,2025,15,30.50
+Prince William County,county,2025,16,37.80
+Prince William County,county,2025,17,49.80
+Prince William County,county,2025,18,58.40
+Prince William County,county,2025,19,62.80
+Prince William County,county,2025,20,65.60
+Prince William County,county,2025,21,64.20
+Prince William County,county,2025,22,59.80
+Prince William County,county,2025,23,53.30
+Richmond City,city,2025,0,45.30
+Richmond City,city,2025,1,39.80
+Richmond City,city,2025,2,34.80
+Richmond City,city,2025,3,31.20
+Richmond City,city,2025,4,28.30
+Richmond City,city,2025,5,25.70
+Richmond City,city,2025,6,22.70
+Richmond City,city,2025,7,18.10
+Richmond City,city,2025,8,15.10
+Richmond City,city,2025,9,14.50
+Richmond City,city,2025,10,15.80
+Richmond City,city,2025,11,18.10
+Richmond City,city,2025,12,20.90
+Richmond City,city,2025,13,23.20
+Richmond City,city,2025,14,26.00
+Richmond City,city,2025,15,30.60
+Richmond City,city,2025,16,38.10
+Richmond City,city,2025,17,49.90
+Richmond City,city,2025,18,58.60
+Richmond City,city,2025,19,63.10
+Richmond City,city,2025,20,65.80
+Richmond City,city,2025,21,64.50
+Richmond City,city,2025,22,60.00
+Richmond City,city,2025,23,53.50
+Roanoke City,city,2025,0,63.60
+Roanoke City,city,2025,1,55.80
+Roanoke City,city,2025,2,48.60
+Roanoke City,city,2025,3,43.90
+Roanoke City,city,2025,4,39.70
+Roanoke City,city,2025,5,36.00
+Roanoke City,city,2025,6,31.80
+Roanoke City,city,2025,7,25.30
+Roanoke City,city,2025,8,21.20
+Roanoke City,city,2025,9,20.50
+Roanoke City,city,2025,10,22.00
+Roanoke City,city,2025,11,25.30
+Roanoke City,city,2025,12,29.20
+Roanoke City,city,2025,13,32.50
+Roanoke City,city,2025,14,36.50
+Roanoke City,city,2025,15,42.80
+Roanoke City,city,2025,16,53.30
+Roanoke City,city,2025,17,70.00
+Roanoke City,city,2025,18,82.20
+Roanoke City,city,2025,19,88.40
+Roanoke City,city,2025,20,92.30
+Roanoke City,city,2025,21,90.50
+Roanoke City,city,2025,22,84.10
+Roanoke City,city,2025,23,75.00
+Spotsylvania County,county,2025,0,12.70
+Spotsylvania County,county,2025,1,11.10
+Spotsylvania County,county,2025,2,9.80
+Spotsylvania County,county,2025,3,8.80
+Spotsylvania County,county,2025,4,8.00
+Spotsylvania County,county,2025,5,7.20
+Spotsylvania County,county,2025,6,6.40
+Spotsylvania County,county,2025,7,5.10
+Spotsylvania County,county,2025,8,4.20
+Spotsylvania County,county,2025,9,4.10
+Spotsylvania County,county,2025,10,4.40
+Spotsylvania County,county,2025,11,5.10
+Spotsylvania County,county,2025,12,5.80
+Spotsylvania County,county,2025,13,6.50
+Spotsylvania County,county,2025,14,7.30
+Spotsylvania County,county,2025,15,8.50
+Spotsylvania County,county,2025,16,10.70
+Spotsylvania County,county,2025,17,14.00
+Spotsylvania County,county,2025,18,16.50
+Spotsylvania County,county,2025,19,17.70
+Spotsylvania County,county,2025,20,18.40
+Spotsylvania County,county,2025,21,18.10
+Spotsylvania County,county,2025,22,16.80
+Spotsylvania County,county,2025,23,15.00
+Staunton City,city,2025,0,5.60
+Staunton City,city,2025,1,4.90
+Staunton City,city,2025,2,4.30
+Staunton City,city,2025,3,3.90
+Staunton City,city,2025,4,3.50
+Staunton City,city,2025,5,3.20
+Staunton City,city,2025,6,2.80
+Staunton City,city,2025,7,2.30
+Staunton City,city,2025,8,1.80
+Staunton City,city,2025,9,1.80
+Staunton City,city,2025,10,1.90
+Staunton City,city,2025,11,2.30
+Staunton City,city,2025,12,2.60
+Staunton City,city,2025,13,2.80
+Staunton City,city,2025,14,3.20
+Staunton City,city,2025,15,3.80
+Staunton City,city,2025,16,4.70
+Staunton City,city,2025,17,6.10
+Staunton City,city,2025,18,7.30
+Staunton City,city,2025,19,7.70
+Staunton City,city,2025,20,8.10
+Staunton City,city,2025,21,8.00
+Staunton City,city,2025,22,7.40
+Staunton City,city,2025,23,6.60
+Virginia Beach City,city,2025,0,53.10
+Virginia Beach City,city,2025,1,46.50
+Virginia Beach City,city,2025,2,40.60
+Virginia Beach City,city,2025,3,36.60
+Virginia Beach City,city,2025,4,33.10
+Virginia Beach City,city,2025,5,30.00
+Virginia Beach City,city,2025,6,26.60
+Virginia Beach City,city,2025,7,21.10
+Virginia Beach City,city,2025,8,17.70
+Virginia Beach City,city,2025,9,17.00
+Virginia Beach City,city,2025,10,18.40
+Virginia Beach City,city,2025,11,21.10
+Virginia Beach City,city,2025,12,24.40
+Virginia Beach City,city,2025,13,27.20
+Virginia Beach City,city,2025,14,30.50
+Virginia Beach City,city,2025,15,35.70
+Virginia Beach City,city,2025,16,44.40
+Virginia Beach City,city,2025,17,58.40
+Virginia Beach City,city,2025,18,68.60
+Virginia Beach City,city,2025,19,73.80
+Virginia Beach City,city,2025,20,77.00
+Virginia Beach City,city,2025,21,75.50
+Virginia Beach City,city,2025,22,70.10
+Virginia Beach City,city,2025,23,62.50
+Fauquier County,county,2025,0,1.40
+Fauquier County,county,2025,1,1.20
+Fauquier County,county,2025,2,1.00
+Fauquier County,county,2025,3,1.00
+Fauquier County,county,2025,4,0.90
+Fauquier County,county,2025,5,0.80
+Fauquier County,county,2025,6,0.70
+Fauquier County,county,2025,7,0.60
+Fauquier County,county,2025,8,0.50
+Fauquier County,county,2025,9,0.50
+Fauquier County,county,2025,10,0.50
+Fauquier County,county,2025,11,0.60
+Fauquier County,county,2025,12,0.70
+Fauquier County,county,2025,13,0.70
+Fauquier County,county,2025,14,0.80
+Fauquier County,county,2025,15,0.90
+Fauquier County,county,2025,16,1.10
+Fauquier County,county,2025,17,1.60
+Fauquier County,county,2025,18,1.80
+Fauquier County,county,2025,19,1.90
+Fauquier County,county,2025,20,2.00
+Fauquier County,county,2025,21,2.00
+Fauquier County,county,2025,22,1.80
+Fauquier County,county,2025,23,1.70
+York County,county,2025,0,1.60
+York County,county,2025,1,1.50
+York County,county,2025,2,1.20
+York County,county,2025,3,1.10
+York County,county,2025,4,1.00
+York County,county,2025,5,0.90
+York County,county,2025,6,0.80
+York County,county,2025,7,0.70
+York County,county,2025,8,0.60
+York County,county,2025,9,0.60
+York County,county,2025,10,0.60
+York County,county,2025,11,0.70
+York County,county,2025,12,0.80
+York County,county,2025,13,0.80
+York County,county,2025,14,0.90
+York County,county,2025,15,1.10
+York County,county,2025,16,1.40
+York County,county,2025,17,1.80
+York County,county,2025,18,2.20
+York County,county,2025,19,2.30
+York County,county,2025,20,2.40
+York County,county,2025,21,2.40
+York County,county,2025,22,2.20
+York County,county,2025,23,1.90
+Arlington County,county,2025,0,4.40
+Arlington County,county,2025,1,3.90
+Arlington County,county,2025,2,3.40
+Arlington County,county,2025,3,3.10
+Arlington County,county,2025,4,2.70
+Arlington County,county,2025,5,2.50
+Arlington County,county,2025,6,2.20
+Arlington County,county,2025,7,1.80
+Arlington County,county,2025,8,1.50
+Arlington County,county,2025,9,1.40
+Arlington County,county,2025,10,1.60
+Arlington County,county,2025,11,1.70
+Arlington County,county,2025,12,2.00
+Arlington County,county,2025,13,2.30
+Arlington County,county,2025,14,2.50
+Arlington County,county,2025,15,3.00
+Arlington County,county,2025,16,3.60
+Arlington County,county,2025,17,4.90
+Arlington County,county,2025,18,5.70
+Arlington County,county,2025,19,6.10
+Arlington County,county,2025,20,6.40
+Arlington County,county,2025,21,6.20
+Arlington County,county,2025,22,5.80
+Arlington County,county,2025,23,5.20
+Fairfax County,county,2025,0,57.30
+Fairfax County,county,2025,1,46.70
+Fairfax County,county,2025,2,35.00
+Fairfax County,county,2025,3,23.90
+Fairfax County,county,2025,4,15.10
+Fairfax County,county,2025,5,9.90
+Fairfax County,county,2025,6,7.40
+Fairfax County,county,2025,7,5.60
+Fairfax County,county,2025,8,4.70
+Fairfax County,county,2025,9,4.30
+Fairfax County,county,2025,10,4.50
+Fairfax County,county,2025,11,5.10
+Fairfax County,county,2025,12,6.10
+Fairfax County,county,2025,13,6.80
+Fairfax County,county,2025,14,7.30
+Fairfax County,county,2025,15,8.30
+Fairfax County,county,2025,16,10.10
+Fairfax County,county,2025,17,13.40
+Fairfax County,county,2025,18,15.60
+Fairfax County,county,2025,19,16.80
+Fairfax County,county,2025,20,24.10
+Fairfax County,county,2025,21,36.60
+Fairfax County,county,2025,22,47.60
+Fairfax County,county,2025,23,56.60
+Frederick County,county,2025,0,13.20
+Frederick County,county,2025,1,10.90
+Frederick County,county,2025,2,8.50
+Frederick County,county,2025,3,6.20
+Frederick County,county,2025,4,4.40
+Frederick County,county,2025,5,3.40
+Frederick County,county,2025,6,2.70
+Frederick County,county,2025,7,2.20
+Frederick County,county,2025,8,1.80
+Frederick County,county,2025,9,1.70
+Frederick County,county,2025,10,1.80
+Frederick County,county,2025,11,2.00
+Frederick County,county,2025,12,2.40
+Frederick County,county,2025,13,2.60
+Frederick County,county,2025,14,2.80
+Frederick County,county,2025,15,3.40
+Frederick County,county,2025,16,4.10
+Frederick County,county,2025,17,5.50
+Frederick County,county,2025,18,6.40
+Frederick County,county,2025,19,6.80
+Frederick County,county,2025,20,8.40
+Frederick County,county,2025,21,10.60
+Frederick County,county,2025,22,12.40
+Frederick County,county,2025,23,13.60
+Prince George County,county,2025,0,9.40
+Prince George County,county,2025,1,8.30
+Prince George County,county,2025,2,7.30
+Prince George County,county,2025,3,6.50
+Prince George County,county,2025,4,5.90
+Prince George County,county,2025,5,5.30
+Prince George County,county,2025,6,4.80
+Prince George County,county,2025,7,3.80
+Prince George County,county,2025,8,3.20
+Prince George County,county,2025,9,3.10
+Prince George County,county,2025,10,3.30
+Prince George County,county,2025,11,3.80
+Prince George County,county,2025,12,4.30
+Prince George County,county,2025,13,4.80
+Prince George County,county,2025,14,5.50
+Prince George County,county,2025,15,6.40
+Prince George County,county,2025,16,8.00
+Prince George County,county,2025,17,10.30
+Prince George County,county,2025,18,12.20
+Prince George County,county,2025,19,13.20
+Prince George County,county,2025,20,13.80
+Prince George County,county,2025,21,13.40
+Prince George County,county,2025,22,12.50
+Prince George County,county,2025,23,11.10
+Prince William County,county,2025,0,2.70
+Prince William County,county,2025,1,2.40
+Prince William County,county,2025,2,2.20
+Prince William County,county,2025,3,1.90
+Prince William County,county,2025,4,1.70
+Prince William County,county,2025,5,1.60
+Prince William County,county,2025,6,1.40
+Prince William County,county,2025,7,1.10
+Prince William County,county,2025,8,0.90
+Prince William County,county,2025,9,0.90
+Prince William County,county,2025,10,0.90
+Prince William County,county,2025,11,1.10
+Prince William County,county,2025,12,1.20
+Prince William County,county,2025,13,1.40
+Prince William County,county,2025,14,1.60
+Prince William County,county,2025,15,1.80
+Prince William County,county,2025,16,2.30
+Prince William County,county,2025,17,3.10
+Prince William County,county,2025,18,3.50
+Prince William County,county,2025,19,3.90
+Prince William County,county,2025,20,4.00
+Prince William County,county,2025,21,4.00
+Prince William County,county,2025,22,3.60
+Prince William County,county,2025,23,3.30
+Washington County,city,2025,0,54.00
+Washington County,city,2025,1,47.40
+Washington County,city,2025,2,41.40
+Washington County,city,2025,3,37.30
+Washington County,city,2025,4,33.80
+Washington County,city,2025,5,30.60
+Washington County,city,2025,6,27.00
+Washington County,city,2025,7,21.50
+Washington County,city,2025,8,18.10
+Washington County,city,2025,9,17.40
+Washington County,city,2025,10,18.80
+Washington County,city,2025,11,21.50
+Washington County,city,2025,12,24.80
+Washington County,city,2025,13,27.60
+Washington County,city,2025,14,30.90
+Washington County,city,2025,15,36.40
+Washington County,city,2025,16,45.20
+Washington County,city,2025,17,59.40
+Washington County,city,2025,18,69.80
+Washington County,city,2025,19,75.10
+Washington County,city,2025,20,78.40
+Washington County,city,2025,21,76.80
+Washington County,city,2025,22,71.40
+Washington County,city,2025,23,63.60
